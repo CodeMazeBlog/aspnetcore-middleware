@@ -5,9 +5,9 @@ ASP.NET Core Middleware is software integrated inside the application's pipeline
 
 <p>We are going to divide this article into the following sections:</p>
 <ul>
-	<li><a href="#about-middleware">More About the ASP.NET Core Middleware and Pipeline</a></li>
-	<li><a href="#middleware-order">Middleware Order in ASP.NET Core</a></li>
-	<li><a href="#creating-first-middleware">Creating a First Middleware Component in ASP.NET Core</a></li>
-	<li><a href="#using-map-mapwhen">Using the Map and MapWhen Methods for Branching</a></li>
-	<li><a href="#middleware-separate-class">Creating a Middleware in a Separate Class</a></li>
+	<li>More About the ASP.NET Core Middleware and Pipeline</li>
+	<li>Middleware Order in ASP.NET Core</li>
+	<li>Creating a First Middleware Component in ASP.NET Core</li>
+	<li>Using the Map and MapWhen Methods for Branching</li>
+	<li>Creating a Middleware in a Separate Class</li>
 </ul>
