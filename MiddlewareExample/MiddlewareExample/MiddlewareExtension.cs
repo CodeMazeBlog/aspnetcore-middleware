@@ -10,5 +10,8 @@ namespace MiddlewareExample
 	{
 		public static IApplicationBuilder UseCustomMiddleware(this IApplicationBuilder builder)
 			=> builder.UseMiddleware<CustomMiddleware>();
+
+		public static IApplicationBuilder UseFactoryActivatedCustomMiddleware(this IApplicationBuilder builder)
+			=> builder.UseMiddleware<FactoryActivatedCustomMiddleware>();
 	}
 }

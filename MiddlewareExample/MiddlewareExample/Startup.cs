@@ -19,7 +19,7 @@ namespace MiddlewareExample
 
 		public void ConfigureServices(IServiceCollection services)
 		{
-
+			services.AddTransient<FactoryActivatedCustomMiddleware>();
 			services.AddControllers();
 		}
 
@@ -46,6 +46,7 @@ namespace MiddlewareExample
 			});
 
 			app.UseCustomMiddleware();
+			app.UseFactoryActivatedCustomMiddleware();
 
 			app.Map("/usingmapbranch", builder =>
 			{
